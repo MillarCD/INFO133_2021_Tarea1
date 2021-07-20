@@ -1,0 +1,28 @@
+para el sistema de FuSA propongo hacer un modelo el cual se compone de 2 colecciones:
+
+Usuarios:
+{
+	"rut": 
+	"nombre":
+	"apellido":
+}
+
+Archivo_audio:
+{
+	usuario: {RUT, nombre, apellido}
+	id_audio
+	ciudad
+	latitud
+	longitud
+	duracion
+	formato
+	exterior
+	fecha_grabacion
+	fecha_upload
+	nombre_fuente": [{
+				fuente
+                descripcion
+				analizado_por
+				porcenteaje
+			},...]
+}
